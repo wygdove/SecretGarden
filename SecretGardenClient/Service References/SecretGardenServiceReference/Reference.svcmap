@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f5aed30d-6229-4536-a99d-b1f3f92394d3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/SecretGardenServer/SecretGardenService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SecretGardenServer.wsdl" MetadataType="Wsdl" ID="8d9f819d-1853-41fa-b39c-cb48791b1438" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SecretGardenServer/SecretGardenService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="00b545dd-c718-4e6f-bcf9-16358bc9ca06" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SecretGardenServer/SecretGardenService/mex" />
+    <MetadataFile FileName="SecretGardenServer.xsd" MetadataType="Schema" ID="98c66e39-1519-4549-86cb-eef9a61feb7f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SecretGardenServer/SecretGardenService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="a797c098-52ea-4d8b-acbd-4806af24eafe" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SecretGardenServer/SecretGardenService/mex" />
+    <MetadataFile FileName="SecretGardenServer1.xsd" MetadataType="Schema" ID="0bd199b2-af5a-4861-8ec0-aa75c6a17b6b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SecretGardenServer/SecretGardenService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="69dc3e2a-36a5-43da-8e78-90e8d2da2d0f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SecretGardenServer/SecretGardenService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

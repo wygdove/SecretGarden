@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GuessDatabaseModelStoreContainer" CdmEntityContainer="GuessDatabaseEntities">
+    <EntitySetMapping Name="player">
+      <EntityTypeMapping TypeName="GuessDatabaseModel.player">
+        <MappingFragment StoreEntitySet="player">
+          <ScalarProperty Name="playerID" ColumnName="playerID" />
+          <ScalarProperty Name="playerName" ColumnName="playerName" />
+          <ScalarProperty Name="playerPwd" ColumnName="playerPwd" />
+          <ScalarProperty Name="playerAva" ColumnName="playerAva" />
+          <ScalarProperty Name="playerSign" ColumnName="playerSign" />
+          <ScalarProperty Name="playerScore" ColumnName="playerScore" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="problem">
+      <EntityTypeMapping TypeName="GuessDatabaseModel.problem">
+        <MappingFragment StoreEntitySet="problem">
+          <ScalarProperty Name="proID" ColumnName="proID" />
+          <ScalarProperty Name="proContext" ColumnName="proContext" />
+          <ScalarProperty Name="proTab1" ColumnName="proTab1" />
+          <ScalarProperty Name="proTab2" ColumnName="proTab2" />
+          <ScalarProperty Name="proTab3" ColumnName="proTab3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

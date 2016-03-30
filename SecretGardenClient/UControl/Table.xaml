@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="SecretGardenCliet.UControl.Table"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Image Source="../images/desk.png" Width="200" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Name="textblock1"
+                   Margin="55,20,195,220"
+                   Height="60"
+                   Width="50"
+                   TextAlignment="Center"
+                   FontSize="13"
+                   Foreground="AliceBlue"
+                   TextWrapping="Wrap">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="../images/chair.png" Stretch="Fill"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Name="textblock2"
+                   Height="60"
+                   Width="50"
+                   Margin="197,21,53,219"
+                   TextAlignment="Center"
+                   FontSize="13"
+                   Foreground="AliceBlue"
+                   TextWrapping="Wrap">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="../images/chair.png" Stretch="Fill" />
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Name="textblock3"
+                   Height="60"
+                   Width="50"
+                   Margin="23,143,227,97"
+                   TextAlignment="Center"
+                   FontSize="13"
+                   Foreground="AliceBlue"
+                   TextWrapping="Wrap">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="../images/chair.png" Stretch="Fill" />
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Name="textblock4"
+                   Height="60"
+                   Width="50"
+                   Margin="231,143,19,97"
+                   TextAlignment="Center"
+                   FontSize="13"
+                   Foreground="AliceBlue"
+                   TextWrapping="Wrap">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="../images/chair.png" Stretch="Fill" />
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Name="textblock5"
+                   Height="60"
+                   Width="50"
+                   Margin="123,230,127,10"
+                   TextAlignment="Center"
+                   FontSize="13"
+                   Foreground="AliceBlue"
+                   TextWrapping="Wrap">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="../images/chair.png"
+                            Stretch="Fill" />
+            </TextBlock.Background>
+        </TextBlock>
+    </Grid>
+</UserControl>
